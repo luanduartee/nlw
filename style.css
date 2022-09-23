@@ -36,7 +36,7 @@ header div {
     transition: transform .3s;
 }
 
-header div:hover { /*aplica propriedades quando passo o mouse em cima*/
+header div:hover { 
     transform: scale(1.1);
 }
 
@@ -112,7 +112,7 @@ main section {
     animation: fromBottom .7s backwards;
 }
 
-main section:nth-child(1) /*numera o numero de sections que se tem no index para diferenciar*/
+main section:nth-child(1) 
 {
     animation-delay: 0;
 }
@@ -128,6 +128,7 @@ main section:nth-child(3)
 }
 
 /*criando animações*/
+
 @keyframes fromTop { 
     from {
         opacity: 0;
